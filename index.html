@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mister Carwash</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="pageWrapper">
+        <header id="pageHeader">
+            <nav id="pageNav">
+                <div class="logo">
+                    <a href="#" class="logoImageWrapper">
+                        <img src="./assets/Logo.png" alt="image description">
+                    </a>
+                    <a href="#">
+                        <h1>
+                            Mister Carwash
+                        </h1>
+                    </a>
+                </div>
+                <div class="pageNav">
+                    <ul class="mainNavigation listUnstyle">
+                        <li class="dropdown">
+                            <details>
+                                <summary>Home
+                                    <span class="icoArrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="angle-down" width="20px" ><path fill=""  d="M17,9.17a1,1,0,0,0-1.41,0L12,12.71,8.46,9.17a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.24,4.24a1,1,0,0,0,1.42,0L17,10.59A1,1,0,0,0,17,9.17Z"/></svg>
+                                    </span>
+                                </summary>
+                                <ul class="dropDownList listUnstyle">
+                                    <li >
+                                        <a href="#">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Experience</a>
+                                    </li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li class="dropdown">
+                            <details>
+                                <summary>Pages
+                                    <span class="icoArrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="angle-down" width="20px"><path fill="" d="M17,9.17a1,1,0,0,0-1.41,0L12,12.71,8.46,9.17a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.24,4.24a1,1,0,0,0,1.42,0L17,10.59A1,1,0,0,0,17,9.17Z"/></svg>
+                                    </span>
+                                </summary>
+                                <ul class="dropDownList listUnstyle">
+                                    <li >
+                                        <a href="#">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Experience</a>
+                                    </li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li class="dropdown">
+                            <details>
+                                <summary>Services
+                                    <span class="icoArrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="angle-down" width="20px" ><path fill=""  d="M17,9.17a1,1,0,0,0-1.41,0L12,12.71,8.46,9.17a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.24,4.24a1,1,0,0,0,1.42,0L17,10.59A1,1,0,0,0,17,9.17Z"/></svg>
+                                    </span>
+                                </summary>
+                                <ul class="dropDownList listUnstyle">
+                                    <li >
+                                        <a href="#">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Experience</a>
+                                    </li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li class="dropdown">
+                            <details>
+                                <summary>Portfolio
+                                    <span class="icoArrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="angle-down" width="20px" ><path fill=""  d="M17,9.17a1,1,0,0,0-1.41,0L12,12.71,8.46,9.17a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.24,4.24a1,1,0,0,0,1.42,0L17,10.59A1,1,0,0,0,17,9.17Z"/></svg>
+                                    </span>
+                                </summary>
+                                <ul class="dropDownList listUnstyle">
+                                    <li >
+                                        <a href="#">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Experience</a>
+                                    </li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="socialIco">
+                    <div class="socialContactWrapper">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="whatsappIco" width="30px"> <g> <path fill="none" d="M0 0h24v24H0z"/> <path fill-rule="pink" d="M2.004 22l1.352-4.968A9.954 9.954 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10a9.954 9.954 0 0 1-5.03-1.355L2.004 22zM8.391 7.308a.961.961 0 0 0-.371.1 1.293 1.293 0 0 0-.294.228c-.12.113-.188.211-.261.306A2.729 2.729 0 0 0 6.9 9.62c.002.49.13.967.33 1.413.409.902 1.082 1.857 1.971 2.742.214.213.423.427.648.626a9.448 9.448 0 0 0 3.84 2.046l.569.087c.185.01.37-.004.556-.013a1.99 1.99 0 0 0 .833-.231c.166-.088.244-.132.383-.22 0 0 .043-.028.125-.09.135-.1.218-.171.33-.288.083-.086.155-.187.21-.302.078-.163.156-.474.188-.733.024-.198.017-.306.014-.373-.004-.107-.093-.218-.19-.265l-.582-.261s-.87-.379-1.401-.621a.498.498 0 0 0-.177-.041.482.482 0 0 0-.378.127v-.002c-.005 0-.072.057-.795.933a.35.35 0 0 1-.368.13 1.416 1.416 0 0 1-.191-.066c-.124-.052-.167-.072-.252-.109l-.005-.002a6.01 6.01 0 0 1-1.57-1c-.126-.11-.243-.23-.363-.346a6.296 6.296 0 0 1-1.02-1.268l-.059-.095a.923.923 0 0 1-.102-.205c-.038-.147.061-.265.061-.265s.243-.266.356-.41a4.38 4.38 0 0 0 .263-.373c.118-.19.155-.385.093-.536-.28-.684-.57-1.365-.868-2.041-.059-.134-.234-.23-.393-.249-.054-.006-.108-.012-.162-.016a3.385 3.385 0 0 0-.403.004z"/></g> </svg>
+                        </a>
+                        <a href="#" class="socialContactNumber">
+                            650-732-9369
+                        </a>
+                    </div>
+                    <div class="socialIcoWrapper">
+                        <ul class="socialIcoListed listUnstyle">
+                            <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="user" width="20px" class="styleIco"><path fill="" d="M15.71,12.71a6,6,0,1,0-7.42,0,10,10,0,0,0-6.22,8.18,1,1,0,0,0,2,.22,8,8,0,0,1,15.9,0,1,1,0,0,0,1,.89h.11a1,1,0,0,0,.88-1.1A10,10,0,0,0,15.71,12.71ZM12,12a4,4,0,1,1,4-4A4,4,0,0,1,12,12Z"/></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" id="shopping-cart" data-name="Layer 1" viewBox="0 0 24 24" width="20px" class="styleIco"><path fill="" d="M8.5,19A1.5,1.5,0,1,0,10,20.5,1.5,1.5,0,0,0,8.5,19ZM19,16H7a1,1,0,0,1,0-2h8.49121A3.0132,3.0132,0,0,0,18.376,11.82422L19.96143,6.2749A1.00009,1.00009,0,0,0,19,5H6.73907A3.00666,3.00666,0,0,0,3.92139,3H3A1,1,0,0,0,3,5h.92139a1.00459,1.00459,0,0,1,.96142.7251l.15552.54474.00024.00506L6.6792,12.01709A3.00006,3.00006,0,0,0,7,18H19a1,1,0,0,0,0-2ZM17.67432,7l-1.2212,4.27441A1.00458,1.00458,0,0,1,15.49121,12H8.75439l-.25494-.89221L7.32642,7ZM16.5,19A1.5,1.5,0,1,0,18,20.5,1.5,1.5,0,0,0,16.5,19Z"/></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="search" width="20px"  class="styleIco"><path fill="" d="M21.71,20.29,18,16.61A9,9,0,1,0,16.61,18l3.68,3.68a1,1,0,0,0,1.42,0A1,1,0,0,0,21.71,20.29ZM11,18a7,7,0,1,1,7-7A7,7,0,0,1,11,18Z"/></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#" class="buttonPrimary buttonNone">
+                            Book Appointment
+                        </a>
+                    </div>
+                </div>
+                <details>
+                    <summary class="navOpener burgerMenu">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="bars" class="icnOpen" width="20px"><path fill="rgb(255, 255, 255)" d="M3,8H21a1,1,0,0,0,0-2H3A1,1,0,0,0,3,8Zm18,8H3a1,1,0,0,0,0,2H21a1,1,0,0,0,0-2Zm0-5H3a1,1,0,0,0,0,2H21a1,1,0,0,0,0-2Z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="multiply" class="icnClose" width="20px"><path fill="rgb(255, 255, 255)" d="M13.41,12l6.3-6.29a1,1,0,1,0-1.42-1.42L12,10.59,5.71,4.29A1,1,0,0,0,4.29,5.71L10.59,12l-6.3,6.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L12,13.41l6.29,6.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z"/></svg>
+                    </summary>
+                    <div class="pageNavCollapse">
+                        <ul class="mainNavigation listUnstyle">
+                            <li class="dropdown">
+                                <details>
+                                    <summary>Home
+                                        <span class="icoArrow">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="angle-down" width="20px" ><path fill=""  d="M17,9.17a1,1,0,0,0-1.41,0L12,12.71,8.46,9.17a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.24,4.24a1,1,0,0,0,1.42,0L17,10.59A1,1,0,0,0,17,9.17Z"/></svg>
+                                        </span>
+                                    </summary>
+                                    <ul class="dropDownList listUnstyle">
+                                        <li >
+                                            <a href="#">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Contact</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Experience</a>
+                                        </li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li class="dropdown">
+                                <details>
+                                    <summary>Pages
+                                        <span class="icoArrow">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="angle-down" width="20px"><path fill="" d="M17,9.17a1,1,0,0,0-1.41,0L12,12.71,8.46,9.17a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.24,4.24a1,1,0,0,0,1.42,0L17,10.59A1,1,0,0,0,17,9.17Z"/></svg>
+                                        </span>
+                                    </summary>
+                                    <ul class="dropDownList listUnstyle">
+                                        <li >
+                                            <a href="#">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Experience</a>
+                                        </li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li class="dropdown">
+                                <details>
+                                    <summary>Services
+                                        <span class="icoArrow">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="angle-down" width="20px" ><path fill=""  d="M17,9.17a1,1,0,0,0-1.41,0L12,12.71,8.46,9.17a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.24,4.24a1,1,0,0,0,1.42,0L17,10.59A1,1,0,0,0,17,9.17Z"/></svg>
+                                        </span>
+                                    </summary>
+                                    <ul class="dropDownList listUnstyle">
+                                        <li >
+                                            <a href="#">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Contact</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Experience</a>
+                                        </li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li class="dropdown">
+                                <details>
+                                    <summary>Portfolio
+                                        <span class="icoArrow">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="angle-down" width="20px" ><path fill="#263788"  d="M17,9.17a1,1,0,0,0-1.41,0L12,12.71,8.46,9.17a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.24,4.24a1,1,0,0,0,1.42,0L17,10.59A1,1,0,0,0,17,9.17Z"/></svg>
+                                        </span>
+                                    </summary>
+                                    <ul class="dropDownList listUnstyle">
+                                        <li >
+                                            <a href="#">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Contact</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Experience</a>
+                                        </li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li class="dropdown">
+                                <details>
+                                    <summary>News
+                                        <span class="icoArrow">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="angle-down" width="20px" ><path fill="#263788"  d="M17,9.17a1,1,0,0,0-1.41,0L12,12.71,8.46,9.17a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.24,4.24a1,1,0,0,0,1.42,0L17,10.59A1,1,0,0,0,17,9.17Z"/></svg>
+                                        </span>
+                                    </summary>
+                                    <ul class="dropDownList listUnstyle">
+                                        <li >
+                                            <a href="#">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Contact</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Experience</a>
+                                        </li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li class="dropdown">
+                                <details>
+                                    <summary>Shop
+                                        <span class="icoArrow">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="angle-down" width="20px" ><path fill="#263788"  d="M17,9.17a1,1,0,0,0-1.41,0L12,12.71,8.46,9.17a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.24,4.24a1,1,0,0,0,1.42,0L17,10.59A1,1,0,0,0,17,9.17Z"/></svg>
+                                        </span>
+                                    </summary>
+                                    <ul class="dropDownList listUnstyle">
+                                        <li >
+                                            <a href="#">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Contact</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Experience</a>
+                                        </li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </details>
+            </nav>
+        </header>
+        <main>
+            <section class="hero alignWrap blockWrapper">
+                <div class="alignMiddle">
+                    <header>
+                        <h2>Testimonials</h2>
+                    </header>
+                    <ul class="breadcrumbsListed listUnstyle">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Page</a>
+                        </li>
+                        <li>Testimonials</li>
+                    </ul>
+                </div>
+            </section>
+            <aside class="testimonialWrap">
+                    <div class="container">
+                        <div class="testimonialsSlider">
+                            <div>
+                                <blockquote class="testimonialBlock">
+                                    <div class="testimonailImage">
+                                        <img src="./assets/testimonailImg.png" alt="Image description">
+                                    </div>
+                                    <div class="testimonialText">
+                                        <q>
+                                            <span class="styleComma"></span>
+                                            I love the efficiency of my Car Wash on Sunrise Valvernasa in Mangho Qor nova.A smiling greeting, an excellent wash, and on my way-clean.The best car wash ever!
+                                        </q>
+                                        <h2>Donald Salvor</h2>
+                                        <h3>Customer-Audi</h3>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <div>
+                                <blockquote class="testimonialBlock">
+                                    <div class="testimonailImage">
+                                        <img src="./assets/testimonailImg.png" alt="Image description">
+                                    </div>
+                                    <div class="testimonialText">
+                                        <q>
+                                            <span class="styleComma"></span>
+                                            I love the efficiency of my Car Wash on Sunrise Valvernasa in Mangho Qor nova.A smiling greeting, an excellent wash, and on my way-clean.The best car wash ever!
+                                        </q>
+                                        <h2>Donald Salvor</h2>
+                                        <h3>Customer-Audi</h3>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <div>
+                                <blockquote class="testimonialBlock">
+                                    <div class="testimonailImage">
+                                        <img src="./assets/testimonailImg.png" alt="Image description">
+                                    </div>
+                                    <div class="testimonialText">
+                                            <q>
+                                                <span class="styleComma"></span>
+                                                I love the efficiency of my Car Wash on Sunrise Valvernasa in Mangho Qor nova.A smiling greeting, an excellent wash, and on my way-clean.The best car wash ever!
+                                            </q>
+                                        <h2>Donald Salvor</h2>
+                                        <h3>Customer-Audi</h3>
+                                    </div>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+            </aside>
+            <section class="test">
+                <div class="container">
+                    
+                    <div class="colsHolder">
+                        <div class="chCol">
+                            <blockquote class="testimonialCard">
+                                <q>I love the efficiency of my Car Wash on Sunrise Valvernasa in Mangho Qor nova.A smiling greeting, an excellent wash, and on my way-clean.</q>
+                                <div class="testimonialUser">
+                                    <div class="userImageWrapper">
+                                        <img src="./assets/img1.png" alt="image description">
+                                    </div>
+                                    <div class="userIdWrapper">
+                                        <div class="userId">
+                                            <h3>Donald Salvor</h3>
+                                            <h4>Audi-CS</h4>
+                                        </div>
+                                        <div class="styleComma styleCommaLeft"></div>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <div class="chCol">
+                            <blockquote class="testimonialCard">
+                                <q>I love the efficiency of my Car Wash on Sunrise Valvernasa in Mangho Qor nova.A smiling greeting, an excellent wash, and on my way-clean.</q>
+                                <div class="testimonialUser">
+                                    <div class="userImageWrapper">
+                                        <img src="./assets/img2.png" alt="image description">
+                                    </div>
+                                    <div class="userIdWrapper">
+                                        <div class="userId">
+                                            <h3>James Peter</h3>
+                                            <h4>Toyoto</h4>
+                                        </div>
+                                        <div class="styleComma styleCommaLeft"></div>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <div class="chCol">
+                            <blockquote class="testimonialCard">
+                                <q>I love the efficiency of my Car Wash on Sunrise Valvernasa in Mangho Qor nova.A smiling greeting, an excellent wash, and on my way-clean.</q>
+                                <div class="testimonialUser">
+                                    <div class="userImageWrapper">
+                                        <img src="./assets/img3.png" alt="image description">
+                                    </div>
+                                    <div class="userIdWrapper">
+                                        <div class="userId">
+                                            <h3>Peek Thakul</h3>
+                                            <h4>Benz Cruizer</h4>
+                                        </div>
+                                        <div class="styleComma styleCommaLeft"></div>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <div class="chCol">
+                            <blockquote class="testimonialCard">
+                                <q>I love the efficiency of my Car Wash on Sunrise Valvernasa in Mangho Qor nova.A smiling greeting, an excellent wash, and on my way-clean.</q>
+                                <div class="testimonialUser">
+                                    <div class="userImageWrapper">
+                                        <img src="./assets/img4.png" alt="image description">
+                                    </div>
+                                    <div class="userIdWrapper">
+                                        <div class="userId">
+                                            <h3>Donald Salvor</h3>
+                                            <h4>Audi-CS</h4>
+                                        </div>
+                                        <div class="styleComma styleCommaLeft"></div>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <div class="chCol">
+                            <blockquote class="testimonialCard">
+                                <q>I love the efficiency of my Car Wash on Sunrise Valvernasa in Mangho Qor nova.A smiling greeting, an excellent wash, and on my way-clean.</q>
+                                <div class="testimonialUser">
+                                    <div class="userImageWrapper">
+                                        <img src="./assets/img5.png" alt="image description">
+                                    </div>
+                                    <div class="userIdWrapper">
+                                        <div class="userId">
+                                            <h3>James Peter</h3>
+                                            <h4>Toyoto</h4>
+                                        </div>
+                                        <div class="styleComma styleCommaLeft"></div>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <div class="chCol">
+                            <blockquote class="testimonialCard">
+                                <q>I love the efficiency of my Car Wash on Sunrise Valvernasa in Mangho Qor nova.A smiling greeting, an excellent wash, and on my way-clean.</q>
+                                <div class="testimonialUser">
+                                    <div class="userImageWrapper">
+                                        <img src="./assets/img6.png" alt="image description">
+                                    </div>
+                                    <div class="userIdWrapper">
+                                        <div class="userId">
+                                            <h3>Peek Thakul</h3>
+                                            <h4>Benz Cruizer</h4>
+                                        </div>
+                                        <div class="styleComma styleCommaLeft"></div>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <div class="buttonWrapper">
+                            <a href="#" class="buttonPrimary">
+                                Load More Reviews
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="testimonialCardBlock blockWrapper">
+                <div class="container">
+                    <header class="alignCenter">
+                        <strong class="textStyle">CUSTOMER REVIEW</strong>
+                        <h2>What people think about <br> our services</h2>
+                    </header>
+                    <div class="colsHolder">
+                        <div class="chCol">
+                            <blockquote class="testimonialCard">
+                                <q>I love the efficiency of my Car Wash on Sunrise Valvernasa in Mangho Qor nova.A smiling greeting, an excellent wash, and on my way-clean.</q>
+                                <div class="testimonialUser">
+                                    <div class="userImageWrapper">
+                                        <img src="./assets/img1.png" alt="image description">
+                                    </div>
+                                    <div class="userIdWrapper">
+                                        <div class="userId">
+                                            <h3>Donald Salvor</h3>
+                                            <h4>Audi-CS</h4>
+                                        </div>
+                                        <div class="styleComma styleCommaLeft"></div>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <div class="chCol">
+                            <blockquote class="testimonialCard">
+                                <q>I love the efficiency of my Car Wash on Sunrise Valvernasa in Mangho Qor nova.A smiling greeting, an excellent wash, and on my way-clean.</q>
+                                <div class="testimonialUser">
+                                    <div class="userImageWrapper">
+                                        <img src="./assets/img2.png" alt="image description">
+                                    </div>
+                                    <div class="userIdWrapper">
+                                        <div class="userId">
+                                            <h3>James Peter</h3>
+                                            <h4>Toyoto</h4>
+                                        </div>
+                                        <div class="styleComma styleCommaLeft"></div>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <div class="chCol">
+                            <blockquote class="testimonialCard">
+                                <q>I love the efficiency of my Car Wash on Sunrise Valvernasa in Mangho Qor nova.A smiling greeting, an excellent wash, and on my way-clean.</q>
+                                <div class="testimonialUser">
+                                    <div class="userImageWrapper">
+                                        <img src="./assets/img3.png" alt="image description">
+                                    </div>
+                                    <div class="userIdWrapper">
+                                        <div class="userId">
+                                            <h3>Peek Thakul</h3>
+                                            <h4>Benz Cruizer</h4>
+                                        </div>
+                                        <div class="styleComma styleCommaLeft"></div>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <div class="chCol">
+                            <blockquote class="testimonialCard">
+                                <q>I love the efficiency of my Car Wash on Sunrise Valvernasa in Mangho Qor nova.A smiling greeting, an excellent wash, and on my way-clean.</q>
+                                <div class="testimonialUser">
+                                    <div class="userImageWrapper">
+                                        <img src="./assets/img4.png" alt="image description">
+                                    </div>
+                                    <div class="userIdWrapper">
+                                        <div class="userId">
+                                            <h3>Donald Salvor</h3>
+                                            <h4>Audi-CS</h4>
+                                        </div>
+                                        <div class="styleComma styleCommaLeft"></div>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <div class="chCol">
+                            <blockquote class="testimonialCard">
+                                <q>I love the efficiency of my Car Wash on Sunrise Valvernasa in Mangho Qor nova.A smiling greeting, an excellent wash, and on my way-clean.</q>
+                                <div class="testimonialUser">
+                                    <div class="userImageWrapper">
+                                        <img src="./assets/img5.png" alt="image description">
+                                    </div>
+                                    <div class="userIdWrapper">
+                                        <div class="userId">
+                                            <h3>James Peter</h3>
+                                            <h4>Toyoto</h4>
+                                        </div>
+                                        <div class="styleComma styleCommaLeft"></div>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <div class="chCol">
+                            <blockquote class="testimonialCard">
+                                <q>I love the efficiency of my Car Wash on Sunrise Valvernasa in Mangho Qor nova.A smiling greeting, an excellent wash, and on my way-clean.</q>
+                                <div class="testimonialUser">
+                                    <div class="userImageWrapper">
+                                        <img src="./assets/img6.png" alt="image description">
+                                    </div>
+                                    <div class="userIdWrapper">
+                                        <div class="userId">
+                                            <h3>Peek Thakul</h3>
+                                            <h4>Benz Cruizer</h4>
+                                        </div>
+                                        <div class="styleComma styleCommaLeft"></div>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <div class="buttonWrapper">
+                            <a href="#" class="buttonPrimary">
+                                Load More Reviews
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bottomNavigation blockWrapper">
+                <div class="container navigationWrapper">
+                    <ul class="navigationListed listUnstyle">
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Servies</a>
+                        </li>
+                        <li>
+                            <a href="#">Shop</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#">Portfolio</a>
+                        </li>
+                    </ul>
+                    <ul class="socialNetwork listUnstyle">
+                        <li>Connect With Us</li>
+                        <li>
+                            <a href="#" class="socialNetworkIco">
+                                <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24" id="facebook" width="15px" class="networkIco"><path fill="" d="M20.9,2H3.1A1.1,1.1,0,0,0,2,3.1V20.9A1.1,1.1,0,0,0,3.1,22h9.58V14.25h-2.6v-3h2.6V9a3.64,3.64,0,0,1,3.88-4,20.26,20.26,0,0,1,2.33.12v2.7H17.3c-1.26,0-1.5.6-1.5,1.47v1.93h3l-.39,3H15.8V22h5.1A1.1,1.1,0,0,0,22,20.9V3.1A1.1,1.1,0,0,0,20.9,2Z"/></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="socialNetworkIco">
+                                <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24" id="twitter" width="15px" class="networkIco"><path fill="autoFill" d="M22,5.8a8.49,8.49,0,0,1-2.36.64,4.13,4.13,0,0,0,1.81-2.27,8.21,8.21,0,0,1-2.61,1,4.1,4.1,0,0,0-7,3.74A11.64,11.64,0,0,1,3.39,4.62a4.16,4.16,0,0,0-.55,2.07A4.09,4.09,0,0,0,4.66,10.1,4.05,4.05,0,0,1,2.8,9.59v.05a4.1,4.1,0,0,0,3.3,4A3.93,3.93,0,0,1,5,13.81a4.9,4.9,0,0,1-.77-.07,4.11,4.11,0,0,0,3.83,2.84A8.22,8.22,0,0,1,3,18.34a7.93,7.93,0,0,1-1-.06,11.57,11.57,0,0,0,6.29,1.85A11.59,11.59,0,0,0,20,8.45c0-.17,0-.35,0-.53A8.43,8.43,0,0,0,22,5.8Z"/></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="socialNetworkIco">
+                                <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24" id="instagram" width="15px" class="networkIco"><path fill="" d="M17.34,5.46h0a1.2,1.2,0,1,0,1.2,1.2A1.2,1.2,0,0,0,17.34,5.46Zm4.6,2.42a7.59,7.59,0,0,0-.46-2.43,4.94,4.94,0,0,0-1.16-1.77,4.7,4.7,0,0,0-1.77-1.15,7.3,7.3,0,0,0-2.43-.47C15.06,2,14.72,2,12,2s-3.06,0-4.12.06a7.3,7.3,0,0,0-2.43.47A4.78,4.78,0,0,0,3.68,3.68,4.7,4.7,0,0,0,2.53,5.45a7.3,7.3,0,0,0-.47,2.43C2,8.94,2,9.28,2,12s0,3.06.06,4.12a7.3,7.3,0,0,0,.47,2.43,4.7,4.7,0,0,0,1.15,1.77,4.78,4.78,0,0,0,1.77,1.15,7.3,7.3,0,0,0,2.43.47C8.94,22,9.28,22,12,22s3.06,0,4.12-.06a7.3,7.3,0,0,0,2.43-.47,4.7,4.7,0,0,0,1.77-1.15,4.85,4.85,0,0,0,1.16-1.77,7.59,7.59,0,0,0,.46-2.43c0-1.06.06-1.4.06-4.12S22,8.94,21.94,7.88ZM20.14,16a5.61,5.61,0,0,1-.34,1.86,3.06,3.06,0,0,1-.75,1.15,3.19,3.19,0,0,1-1.15.75,5.61,5.61,0,0,1-1.86.34c-1,.05-1.37.06-4,.06s-3,0-4-.06A5.73,5.73,0,0,1,6.1,19.8,3.27,3.27,0,0,1,5,19.05a3,3,0,0,1-.74-1.15A5.54,5.54,0,0,1,3.86,16c0-1-.06-1.37-.06-4s0-3,.06-4A5.54,5.54,0,0,1,4.21,6.1,3,3,0,0,1,5,5,3.14,3.14,0,0,1,6.1,4.2,5.73,5.73,0,0,1,8,3.86c1,0,1.37-.06,4-.06s3,0,4,.06a5.61,5.61,0,0,1,1.86.34A3.06,3.06,0,0,1,19.05,5,3.06,3.06,0,0,1,19.8,6.1,5.61,5.61,0,0,1,20.14,8c.05,1,.06,1.37.06,4S20.19,15,20.14,16ZM12,6.87A5.13,5.13,0,1,0,17.14,12,5.12,5.12,0,0,0,12,6.87Zm0,8.46A3.33,3.33,0,1,1,15.33,12,3.33,3.33,0,0,1,12,15.33Z"/></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="socialNetworkIco">
+                                <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24" id="youtube" width="15px" class="networkIco"><path fill="" d="M23,9.71a8.5,8.5,0,0,0-.91-4.13,2.92,2.92,0,0,0-1.72-1A78.36,78.36,0,0,0,12,4.27a78.45,78.45,0,0,0-8.34.3,2.87,2.87,0,0,0-1.46.74c-.9.83-1,2.25-1.1,3.45a48.29,48.29,0,0,0,0,6.48,9.55,9.55,0,0,0,.3,2,3.14,3.14,0,0,0,.71,1.36,2.86,2.86,0,0,0,1.49.78,45.18,45.18,0,0,0,6.5.33c3.5.05,6.57,0,10.2-.28a2.88,2.88,0,0,0,1.53-.78,2.49,2.49,0,0,0,.61-1,10.58,10.58,0,0,0,.52-3.4C23,13.69,23,10.31,23,9.71ZM9.74,14.85V8.66l5.92,3.11C14,12.69,11.81,13.73,9.74,14.85Z"/></svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="contactBlock blockWrapper">
+                <div class="container">
+                    <div class="colsHolder">
+                        <div class="chCol">
+                            <h2>Our Address</h2>
+                            <p>
+                                Level 13, 2 Elizabeth St, Melbourne, Victoria 3000, Australia
+                            </p>
+                        </div>
+                        <div class="chCol">
+                            <h2>Opening Hours</h2>
+                            <ul class="listUnstyle timeListed">
+                                <li>
+                                    <strong>Monday - Friday</strong>
+                                    <time>09:00 AM - 05:00 PM</time>
+                                </li>
+                                <li>
+                                    <strong>Monday - Friday</strong>
+                                    <time>09:00 AM - 05:00 PM</time>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="chCol">
+                            <header class="socialContactWrapper socialContactBlock">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="whatsappIcoStyle" width="30px" fill="#2db7ff"> <g> <path fill="none" d="M0 0h24v24H0z"/> <path fill-rule="none" d="M2.004 22l1.352-4.968A9.954 9.954 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10a9.954 9.954 0 0 1-5.03-1.355L2.004 22zM8.391 7.308a.961.961 0 0 0-.371.1 1.293 1.293 0 0 0-.294.228c-.12.113-.188.211-.261.306A2.729 2.729 0 0 0 6.9 9.62c.002.49.13.967.33 1.413.409.902 1.082 1.857 1.971 2.742.214.213.423.427.648.626a9.448 9.448 0 0 0 3.84 2.046l.569.087c.185.01.37-.004.556-.013a1.99 1.99 0 0 0 .833-.231c.166-.088.244-.132.383-.22 0 0 .043-.028.125-.09.135-.1.218-.171.33-.288.083-.086.155-.187.21-.302.078-.163.156-.474.188-.733.024-.198.017-.306.014-.373-.004-.107-.093-.218-.19-.265l-.582-.261s-.87-.379-1.401-.621a.498.498 0 0 0-.177-.041.482.482 0 0 0-.378.127v-.002c-.005 0-.072.057-.795.933a.35.35 0 0 1-.368.13 1.416 1.416 0 0 1-.191-.066c-.124-.052-.167-.072-.252-.109l-.005-.002a6.01 6.01 0 0 1-1.57-1c-.126-.11-.243-.23-.363-.346a6.296 6.296 0 0 1-1.02-1.268l-.059-.095a.923.923 0 0 1-.102-.205c-.038-.147.061-.265.061-.265s.243-.266.356-.41a4.38 4.38 0 0 0 .263-.373c.118-.19.155-.385.093-.536-.28-.684-.57-1.365-.868-2.041-.059-.134-.234-.23-.393-.249-.054-.006-.108-.012-.162-.016a3.385 3.385 0 0 0-.403.004z"/></g> </svg>
+                                </a>
+                                <h2 class="socialContactNumber socialNumber">
+                                    650-732-9369
+                                </h2>
+                            </header>
+                            <p>
+                                If you have any question,feel free to contact us
+                            </p>
+                            <a href="#" class="socialMail">noreply@envato.com</a>
+                        </div>
+                        <div class="chCol">
+                            <h2>Newsletter</h2>
+                            <p>Join our newsletter for latest Updates</p>
+                            <div class="inputGroup">
+                                <input type="text" placeholder="Your email address" >
+                                <span class="telegramIco">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" id="telegram" data-name="Layer 1" viewBox="0 0 24 24" width="30px"><title>Telegram Glyph</title><path fill="#2db7ff" d="M11.99432,2a10,10,0,1,0,10,10A9.99917,9.99917,0,0,0,11.99432,2Zm3.17951,15.15247a.70547.70547,0,0,1-1.002.3515l-2.71467-2.10938L9.71484,17.002a.29969.29969,0,0,1-.285.03894l.334-2.98846.01069.00848.00683-.059s4.885-4.44751,5.084-4.637c.20147-.189.135-.23.135-.23.01147-.23053-.36152,0-.36152,0L8.16632,13.299l-2.69549-.918s-.414-.1485-.453-.475c-.041-.324.46649-.5.46649-.5l10.717-4.25751s.881-.39252.881.25751Z"/></svg>
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footerWrapper blockWrapper">
+                <p>Mister car wash Template-Mad UX @ 2020. All Rights Reserved</p>
+            </footer>
+        </main>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
